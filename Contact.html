@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Lealem Food Delivery</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <header class="bg-green-500 text-white py-4">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <a href="/" class="text-2xl font-bold">Lealem Food Delivery</a>
+      <nav>
+        <ul class="flex space-x-4">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html" class="font-bold">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="signIn.html">signIn</a></li>
+            <li><a href="signUp.html">signUp</a></li>
+          </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="bg-gray-100 py-16">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl font-bold mb-8 text-center">Get in Touch</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div>
+            <form class="bg-white rounded-lg shadow-md p-6">
+              <div class="mb-4">
+                <label for="name" class="block font-bold text-gray-700 mb-2">Name</label>
+                <input type="text" id="name" name="name" class="border-gray-400 border-2 rounded-md py-2 px-3 w-full" required>
+              </div>
+              <div class="mb-4">
+                <label for="email" class="block font-bold text-gray-700 mb-2">Email</label>
+                <input type="email" id="email" name="email" class="border-gray-400 border-2 rounded-md py-2 px-3 w-full" required>
+              </div>
+              <div class="mb-4">
+                <label for="message" class="block font-bold text-gray-700 mb-2">Message</label>
+                <textarea id="message" name="message" rows="4" class="border-gray-400 border-2 rounded-md py-2 px-3 w-full" required></textarea>
+              </div>
+              <button type="submit" class="bg-green-500 text-white font-bold py-2 px-4 rounded-md hover:bg-green-700 transition-colors duration-300">Send Message</button>
+            </form>
+          </div>
+          <div>
+            <div class="bg-white rounded-lg shadow-md p-6">
+              <h3 class="text-2xl font-bold mb-4">Contact Information</h3>
+              <div class="flex items-center mb-2">
+                <i class="fas fa-map-marker-alt text-green-500 mr-2"></i>
+                <p class="text-gray-700">123 Main Street, Anytown USA</p>
+              </div>
+              <div class="flex items-center mb-2">
+                <i class="fas fa-phone-alt text-green-500 mr-2"></i>
+                <p class="text-gray-700">+1 (555) 555-5555</p>
+              </div>
+              <div class="flex items-center mb-2">
+                <i class="fas fa-envelope text-green-500 mr-2"></i>
+                <p class="text-gray-700">info@lealemfooddelivery.com</p>
+              </div>
+              <div class="flex items-center">
+                <i class="fab fa-twitter text-green-500 mr-2"></i>
+                <i class="fab fa-facebook-f text-green-500 mr-2"></i>
+                <i class="fab fa-instagram text-green-500 mr-2"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-green-500 text-white py-8">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <p>&copy; 2023 Lealem Food Delivery. All rights reserved.</p>
+      <nav>
+        <ul class="flex space-x-4">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html" class="font-bold">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="signIn.html">signIn</a></li>
+            <li><a href="signUp.html">signUp</a></li>
+          </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
